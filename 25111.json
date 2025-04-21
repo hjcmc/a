@@ -11,8 +11,16 @@
   "playerType":1,
   "ua":"okhttp/3.15",
   "epg":"https://epg.112114.eu.org/?ch={name}&date={date}",
-  "logo":"https://epg.112114.eu.org/logo/{name}.png"
-  } , {
+  "logo":"https://epg.112114.eu.org/logo/{name}.png",
+        "core": {
+        "auth": "local://tvbus",
+        "name": "123",
+        "pass": "345",
+        "resp": "{\"result_code\":\"0\",\"result\":\"ok\",\"keys\":{\"user_id\":\"0027000005f5c398\",\"peer_id\":\"0ec044591d9e1418\",\"session_key\":\"0a49662f37674af5\"}}",
+        "so": "http://rihou.cc:555/tvbus.so",
+        "pkg": "com.svc.vlive.home.ytv9x",
+        "sign": "308203533082023ba00302010202042108f284300d06092a864886f70d01010b05003059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b060355040b130479797878310d300b06035504031304787879793020170d3139303332363038333233305a180f32313139303330323038333233305a3059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b060355040b130479797878310d300b060355040313047878797930820122300d06092a864886f70d01010105000382010f003082010a0282010100bb3298eb5910860b7ae30b6b874ca374667133fd08cbf42bb52d5c1a49e0fe4818fc768f5155a95eacc465d8649467c40ce632081297fb66c6838534ee4221e3d2b6b56060fdde5569e37465852f9daa3a987bff4f013981c9ff063b7e0ca7d52ccacfeddbe066bcc29780d78e929ad9dacc3b804f51c9eb0548aac4803b0d32764135d6d8d987381adea6d5ec34966aebdec717c95e064e203a3ba6d10bf8336eae43a01ca42406055c62312c6ed057afb386cd12b0b54ac1611e6e1fef8e71c8da0597a43f542e645f54e614c2603b58ce3690e69e0da24e944eecacdcf6faa2043ccce1f15860432527b706269510cd6bd8314999fa870fb8825a1e1805070203010001a321301f301d0603551d0e041604149fcb5d4d1dd5743459052b9ab79539ebc8924570300d06092a864886f70d01010b05000382010100658ddae3d7833e5b7cbf504cc016deda2cee97cb2b0bbdb889d06f19860389904ffcdf0f21966299d4c0e19d109065bdd769977f1a67d4928fecdee48eb3c7ce5fb4009653510b9897bdc66aa54a29930ed5c27cbd3a75c4362944afa4625a7c7f0d3e77bcaf8f23d9233ad9c83d33305c88f6110f6d50de9eec1c47135fff99826bc79c88355f99d41c00eb54a7292c44a340fb78d3ac1acf39ad0d13bccc2fdf69e1d86504ae4087a4b59a662986a4e03c0b379f92dce5c8c9da54e164f9480c8a9fed01bcc562640b78adaaa5adcfda0e03a477ea63ec136819298e55f428f74076c1b444556001b84cbd5d47b080b6aeb5f1a567c03ea6a64a9c2876e3b2"  }
+    }  , {
   "name":"内置EXO",
   "boot": true,
   "type":0,
@@ -20,37 +28,131 @@
   "playerType":2,
   "ua":"okhttp/3.15",
   "epg":"https://epg.112114.eu.org/?ch={name}&date={date}",
+  "logo":"https://epg.112114.eu.org/logo/{name}.png",
+        "core": {
+        "auth": "local://tvbus",
+        "name": "123",
+        "pass": "345",
+        "resp": "{\"result_code\":\"0\",\"result\":\"ok\",\"keys\":{\"user_id\":\"0027000005f5c398\",\"peer_id\":\"0ec044591d9e1418\",\"session_key\":\"0a49662f37674af5\"}}",
+        "so": "http://rihou.cc:555/tvbus.so",
+        "pkg": "com.svc.vlive.home.ytv9x",
+        "sign": "308203533082023ba00302010202042108f284300d06092a864886f70d01010b05003059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b060355040b130479797878310d300b06035504031304787879793020170d3139303332363038333233305a180f32313139303330323038333233305a3059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b060355040b130479797878310d300b060355040313047878797930820122300d06092a864886f70d01010105000382010f003082010a0282010100bb3298eb5910860b7ae30b6b874ca374667133fd08cbf42bb52d5c1a49e0fe4818fc768f5155a95eacc465d8649467c40ce632081297fb66c6838534ee4221e3d2b6b56060fdde5569e37465852f9daa3a987bff4f013981c9ff063b7e0ca7d52ccacfeddbe066bcc29780d78e929ad9dacc3b804f51c9eb0548aac4803b0d32764135d6d8d987381adea6d5ec34966aebdec717c95e064e203a3ba6d10bf8336eae43a01ca42406055c62312c6ed057afb386cd12b0b54ac1611e6e1fef8e71c8da0597a43f542e645f54e614c2603b58ce3690e69e0da24e944eecacdcf6faa2043ccce1f15860432527b706269510cd6bd8314999fa870fb8825a1e1805070203010001a321301f301d0603551d0e041604149fcb5d4d1dd5743459052b9ab79539ebc8924570300d06092a864886f70d01010b05000382010100658ddae3d7833e5b7cbf504cc016deda2cee97cb2b0bbdb889d06f19860389904ffcdf0f21966299d4c0e19d109065bdd769977f1a67d4928fecdee48eb3c7ce5fb4009653510b9897bdc66aa54a29930ed5c27cbd3a75c4362944afa4625a7c7f0d3e77bcaf8f23d9233ad9c83d33305c88f6110f6d50de9eec1c47135fff99826bc79c88355f99d41c00eb54a7292c44a340fb78d3ac1acf39ad0d13bccc2fdf69e1d86504ae4087a4b59a662986a4e03c0b379f92dce5c8c9da54e164f9480c8a9fed01bcc562640b78adaaa5adcfda0e03a477ea63ec136819298e55f428f74076c1b444556001b84cbd5d47b080b6aeb5f1a567c03ea6a64a9c2876e3b2"  }
+    }  , {
+  "name":"内置测试",
+  "boot": true,
+  "type":0,
+  "url":"http://rihou.cc:555/gggggnzk",
+  "playerType":2,
+  "ua":"mitv",
+  "epg":"https://epg.112114.eu.org/?ch={name}&date={date}",
   "logo":"https://epg.112114.eu.org/logo/{name}.png"
-  }
+  },{
+      "name": "外置频测",
+      "url": "http://rihou.cc:555/20250413.txt",
+      "core": {
+        "auth": "local://tvbus",
+        "name": "123",
+        "pass": "345",
+        "resp": "{\"result_code\":\"0\",\"result\":\"ok\",\"keys\":{\"user_id\":\"0027000005f5c398\",\"peer_id\":\"0ec044591d9e1418\",\"session_key\":\"0a49662f37674af5\"}}",
+        "so": "http://rihou.cc:555/tvbus.so",
+        "pkg": "com.svc.vlive.home.ytv9x",
+        "sign": "308203533082023ba00302010202042108f284300d06092a864886f70d01010b05003059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b060355040b130479797878310d300b06035504031304787879793020170d3139303332363038333233305a180f32313139303330323038333233305a3059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b060355040b130479797878310d300b060355040313047878797930820122300d06092a864886f70d01010105000382010f003082010a0282010100bb3298eb5910860b7ae30b6b874ca374667133fd08cbf42bb52d5c1a49e0fe4818fc768f5155a95eacc465d8649467c40ce632081297fb66c6838534ee4221e3d2b6b56060fdde5569e37465852f9daa3a987bff4f013981c9ff063b7e0ca7d52ccacfeddbe066bcc29780d78e929ad9dacc3b804f51c9eb0548aac4803b0d32764135d6d8d987381adea6d5ec34966aebdec717c95e064e203a3ba6d10bf8336eae43a01ca42406055c62312c6ed057afb386cd12b0b54ac1611e6e1fef8e71c8da0597a43f542e645f54e614c2603b58ce3690e69e0da24e944eecacdcf6faa2043ccce1f15860432527b706269510cd6bd8314999fa870fb8825a1e1805070203010001a321301f301d0603551d0e041604149fcb5d4d1dd5743459052b9ab79539ebc8924570300d06092a864886f70d01010b05000382010100658ddae3d7833e5b7cbf504cc016deda2cee97cb2b0bbdb889d06f19860389904ffcdf0f21966299d4c0e19d109065bdd769977f1a67d4928fecdee48eb3c7ce5fb4009653510b9897bdc66aa54a29930ed5c27cbd3a75c4362944afa4625a7c7f0d3e77bcaf8f23d9233ad9c83d33305c88f6110f6d50de9eec1c47135fff99826bc79c88355f99d41c00eb54a7292c44a340fb78d3ac1acf39ad0d13bccc2fdf69e1d86504ae4087a4b59a662986a4e03c0b379f92dce5c8c9da54e164f9480c8a9fed01bcc562640b78adaaa5adcfda0e03a477ea63ec136819298e55f428f74076c1b444556001b84cbd5d47b080b6aeb5f1a567c03ea6a64a9c2876e3b2"  }
+    }  , {
+      "name": "外置小云",
+      "url": "https://tang.hz.cz/so/xiaoyun.m3u",
+      "core": {
+        "auth": "local://tvbus",
+        "name": "123",
+        "pass": "345",
+        "resp": "{\"result_code\":\"0\",\"result\":\"ok\",\"keys\":{\"user_id\":\"0027000005f5c398\",\"peer_id\":\"0ec044591d9e1418\",\"session_key\":\"0a49662f37674af5\"}}",
+        "so": "http://rihou.cc:555/tvbus.so",
+        "pkg": "com.svc.vlive.home.ytv9x",
+        "sign": "308203533082023ba00302010202042108f284300d06092a864886f70d01010b05003059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b060355040b130479797878310d300b06035504031304787879793020170d3139303332363038333233305a180f32313139303330323038333233305a3059310c300a0603550406130378797a310d300b060355040813047a7a7979310d300b0603550407130479787978310d300b060355040a130478797879310d300b060355040b130479797878310d300b060355040313047878797930820122300d06092a864886f70d01010105000382010f003082010a0282010100bb3298eb5910860b7ae30b6b874ca374667133fd08cbf42bb52d5c1a49e0fe4818fc768f5155a95eacc465d8649467c40ce632081297fb66c6838534ee4221e3d2b6b56060fdde5569e37465852f9daa3a987bff4f013981c9ff063b7e0ca7d52ccacfeddbe066bcc29780d78e929ad9dacc3b804f51c9eb0548aac4803b0d32764135d6d8d987381adea6d5ec34966aebdec717c95e064e203a3ba6d10bf8336eae43a01ca42406055c62312c6ed057afb386cd12b0b54ac1611e6e1fef8e71c8da0597a43f542e645f54e614c2603b58ce3690e69e0da24e944eecacdcf6faa2043ccce1f15860432527b706269510cd6bd8314999fa870fb8825a1e1805070203010001a321301f301d0603551d0e041604149fcb5d4d1dd5743459052b9ab79539ebc8924570300d06092a864886f70d01010b05000382010100658ddae3d7833e5b7cbf504cc016deda2cee97cb2b0bbdb889d06f19860389904ffcdf0f21966299d4c0e19d109065bdd769977f1a67d4928fecdee48eb3c7ce5fb4009653510b9897bdc66aa54a29930ed5c27cbd3a75c4362944afa4625a7c7f0d3e77bcaf8f23d9233ad9c83d33305c88f6110f6d50de9eec1c47135fff99826bc79c88355f99d41c00eb54a7292c44a340fb78d3ac1acf39ad0d13bccc2fdf69e1d86504ae4087a4b59a662986a4e03c0b379f92dce5c8c9da54e164f9480c8a9fed01bcc562640b78adaaa5adcfda0e03a477ea63ec136819298e55f428f74076c1b444556001b84cbd5d47b080b6aeb5f1a567c03ea6a64a9c2876e3b2"  }
+    }  ,  {
+            "name": "外置测试",
+            "type": 0,
+            "url": "https://gh-proxy.com/raw.githubusercontent.com/sln654360/itv/refs/heads/main/itv.txt",
+            "ua": "okhttp/3.15",
+            "epg": "https://iptv.crestekk.cn/epgphp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.cn/tv/{name}.png",
+            "catchup": {
+                "type": "append",
+                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+            }
+        }
+    ],
+    "headers": [
+        {
+            "host": "gslbserv.itv.cmvideo.cn",
+            "header": {
+                "User-Agent": "okhttp/3.12.13"
+            }
+        }
+    ],
+    "proxy": [
+        "raw.githubusercontent.com"
+    ],
+    "hosts": [
+        "cache.ott.ystenlive.itv.cmvideo.cn=39.135.132.221",
+        "cache.ott.bestlive.itv.cmvideo.cn=39.135.132.221",
+        "cache.ott.wasulive.itv.cmvideo.cn=39.135.132.221",
+        "cache.ott.fifalive.itv.cmvideo.cn=39.135.132.221",
+        "cache.ott.hnbblive.itv.cmvideo.cn=39.135.132.221"
+    ],
+    "ads": [
+        "static-mozai.4gtv.tv"
+    
 ],
-  "sites": [
-{        "key":"影视仓",
-         "name":"影视仓",  
-          "type": 3,
-      "api": "csp_Xdai",
-      "jar": "https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/tv.jar",
-      "searchable": 1,
-      "changeable":1,        "ext":"caHR0cDovLzExMC40Mi4zLjE5NTo4OTg5fEQ2cTdoamI4N0ZKMDlGNzd8RDZxN2hqYjg3RkowOUY3Nw","jar":"https://git.acwing.com/203BDXC/tvboxt/-/raw/main/lib/qj2.jar;md5;ab2b0ddad5e1f7fa6bd2b295eea6d0d5"
-    },
-{
+  "sites": [   
+  {
+      "key": "jrsjs",
+      "name": "赛事直播",
+      "type": 3,
+      "api": "http://rihou.cc:555/drpy2.min.txt?file=drpy2.min.js",
+      "ext": "http://rihou.cc:555/JRKAN.js",
+      "style": {"type": "list"},
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "timeout": 10,
+      "header": {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"}},
+      {
+      "key":"csp_Kanqiu",
+      "name":"球赛直播",
+      "type": 3,
+      "api": "https://gitee.com/ltby1/vip/raw/master/lib/drpy2.min.js",
+      "ext": "https://gitee.com/ltby1/vip/raw/master/lib/310直播.js",
+      "jar": "https://gitee.com/ltby1/vip/raw/master/蓝天白云.txt;md5;329e914a90b0bb5c7cb69b0eaec19700",
+      "style": {"type": "list"},
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },  
+        {            
+       "key": "企鹅直播",            
+       "name": "企鹅直播",            
+"type": 3,"api": "csp_XPath","style": {  "type": "rect",  "ratio": 1.597},"searchable": 0,"quickSearch": 0,"changeable": 0,
+"jar":"https://raw.liucn.cc/box/fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
+"ext": "https://raw.liucn.cc/box/libs/企鹅直播.json" },
+      {
+      "key":"88看球",
+      "name":"看球直播",
+			"type": 3,
+			"api": "csp_KanqiuGuard",
+			"searchable": 0,
+			"quickSearch": 0,
+			"filterable": 1,
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1743563721956/0402.jar;md5;bb5b6235948920d74911e12f70b947cd",
+			"order_num": 0,
+			"changeable": 0
+		},                              
+        {
          "key":"影视",
          "name":"猫TV直播",        
 "type": 3,
 			"api": "http://rihou.cc:555/nzk/sdtv.js",
 			"ext": "http://rihou.cc:555/nzk/sdtv.txt",
 			"jar": "http://rihou.cc:555/jar/sdtv.jar"}, 	
-	{
-			"key": "csp_LiteApple",
-			"name": "苹果影视",
-			"type": 3,
-			"searchable": 1,
-			"changeable": 1,
-			"api": "csp_LiteApple",
-            "jar": "http://rihou.cc:555/jar/nzk.jar",
-			"playerType": 1,
-			"filterable": 1,
-			"ext": ""
-		},
 {
          "key": "csp_Bili短剧",
          "name": "B站短剧",
@@ -61,6 +163,18 @@
           "filterable": 1,
            "jar": "https://raw.liucn.cc/box/libs/jar/XYQH.jar",
            "ext": "https://raw.liucn.cc/box/libs/xyq/Bili短剧.json"},   
+	{
+			"key": "csp_LiteApple",
+			"name": "苹果直播",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"api": "csp_LiteApple",
+            "jar": "http://rihou.cc:555/jar/nzk.jar",
+			"playerType": 1,
+			"filterable": 1,
+			"ext": ""
+		},   
    {
       "key": "虎牙直播js",
       "name": "虎牙直播",
@@ -91,19 +205,125 @@
       "quickSearch": 0,
       "changeable": 0
     },
+	  {
+            "key": "热播影视",
+            "name": "热播｜影视",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://v.rbotv.cn"
+            }
+        },
+        {
+            "key": "天天影视",
+            "name": "天天｜影视",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://tt.ysdqjs.cn"
+            }
+        },
+        {
+            "key": "浪酷影视",
+            "name": "浪酷｜影视",
+            "type": 3,
+            "api": "csp_AppRJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": {
+                "url": "http://v.lkuys.cn"
+            }
+        },
+	  {
+            "key": "荐片",
+            "name": "荐片｜磁力",
+            "api": "csp_Jianpian",
+            "type": 3,
+            "playerType": 1,
+            "ext": "http://api2.rinhome.com"
+        },
+        {
+            "key": "狐狸君",
+            "name": "狐狸｜4K免扫",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "changeable": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://git.acwing.com/bh666/bhmb/-/raw/main/XBPQ/狐狸君.json"
+        },
+	  {
+            "key": "HG影视",
+            "name": "HG影视｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://cs.hgyx.vip/api2/api.php/app/"
+        },
+	  {
+            "key": "快看",
+            "name": "快看｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "http://kkwk123.top/api.php/app/"
+        },
+     {
+          "key": "热热",
+          "name": "影视热播",
+          "type": 3,
+          "api": "csp_AppRJGuard",
+          "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740714715317/0228JG1.jar;md5;3431e066d826898204cff7bc35683fed",
+          "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
+        },      
+{        "key":"影视仓",
+         "name":"影视①",  
+      "type": 3,
+      "api": "csp_AppSK",
+      "jar": "https://ztha.top/TVBox/fty.jar",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "FbjPcVZY48PN/RIZ5UWFrphwLIZMAYVUEz5FpK6jnh0fUMKIpzPWz0jI/rymDTutcXiX2Dhu1XsjGntrH8QzPldJXdqa2h7TLjJF3DFX"
+    },
+		{
+			"key": "瓜子",
+			"name": "影视②",
+			"type": 3,
+			"api": "csp_Gz360",
+			"searchable": 1,
+			"quickSearch": 0,
+			"filterable": 1,
+			"order_num": 0,
+      "jar": "http://rihou.cc:555/jar/nzk.jar",
+			"changeable": 0
+		},   
     {
       "key": "豆豆",
-      "name": "影瓣②",
+      "name": "影瓣③",
       "type": 3,
       "api": "csp_DouDou",
          "jar": "http://rihou.cc:555/nzk/nzkk.jar",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
-    },           
+    },  
 {      
         "key":"MV",
-        "name":"影堂③",
+        "name":"影堂④",
         "type":3,
         "api":"csp_Bili",
         "searchable":1,
@@ -111,18 +331,6 @@
         "filterable":1,
         "ext":"http://rihou.cc:555/nzk/Bili.json",
         "jar":"http://rihou.cc:555/jar/0819.jar;md5;380A08E7735A86D85AAA24E9A1C77AF3"},
-  {
-      "key": "jrsjs",
-      "name": "影赛④",
-      "type": 3,
-      "api": "http://rihou.cc:555/drpy2.min.txt?file=drpy2.min.js",
-      "ext": "http://rihou.cc:555/jrs.txt",
-      "style": {"type": "list"},
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "timeout": 10,
-      "header": {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"}},
     {
       "key": "cps_阿里",
       "name": "影视⑤",
@@ -202,38 +410,36 @@
       "jar": "http://rihou.cc:555/jar/nzk.jar",
             "playerType": 2
         },		
+	    {
+            "key":"csp_AppRZ",
+            "name":"影视⑬",
+            "type":3,
+            "playerType":"2",
+            "api":"csp_AppRZ",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1,
+            "jar": "https://jihulab.com/Nostalgia/TVbox/-/raw/master/Yoursmile.jar;md5;C6BB658C79DBF1B220A5004B3FB05326",
+            "ext":"http://rzys.xyz/"},
+    { 
+    "key": "drpy_js_8号影院", 
+    "name": "影视⑭", 
+    "type": 3, 
+    "api": "https://www.100km.top/lib/drpy2.min.js", 
+    "jar": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06",
+    "ext": "https://www.100km.top/js/8号影院.js" 
+    },
         {
-			"key": "huohuo",
-			"name": "影视⑬",
-			"type": 3,
-			"changeable": 0,
-      "jar": "http://rihou.cc:555/jar/nzk.jar",
-			"api": "csp_SaoHuo"
-		},	
-		{
-			"key": "瓜子",
-			"name": "影视⑭",
-			"type": 3,
-			"api": "csp_Gz360",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 1,
-			"order_num": 0,
-      "jar": "http://rihou.cc:555/jar/nzk.jar",
-			"changeable": 0
-		},
+         "key":"csp_SaoHuo",
+         "name":"影视⑮",
+         "type":3,
+         "api":"csp_SaoHuo",
+         "playerType":2,
+         "searchable":1,
+         "quickSearch":1,
+         "jar": "https://jihulab.com/Nostalgia/TVbox/-/raw/master/Yoursmile.jar;md5;C6BB658C79DBF1B220A5004B3FB05326",
+         "filterable":1},
         {
-			"key": "csp_MiTuApp",
-			"name": "影视⑮",
-			"type": 3,
-			"api": "csp_MiTuApp",
-      "jar": "http://rihou.cc:555/jar/nzk.jar",
-			"ext": {"url": "https://ky1080.top",
-        "dataKey": "e59d44b2eef03ba2",
-        "dataIv": "e59d44b2eef03ba2",
-        "deviceId": "23813b15bf7bd359cb8d32f9d0286244c" }
-		},	
-{
          "key":"影视探",
          "name":"影视⑯",         
             "searchable": 1,

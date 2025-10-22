@@ -175,26 +175,10 @@
           "key": "drpy_js_豆瓣",
                 "name": "🛰️接口免费，请勿贩卖🚀",
                       "type": 3,
-                            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
-                                  "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/js/drpy.js"
+                            "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
+                                  "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/js/drpy.js"
 },
-{
-        "key":"csp_XBPQ_dudu30",
-            "name":"请勿相信任何广告👨🏻‍🌾",
-                "type":3,
-                    "api":"csp_XBPQ",
-                        "searchable":1,
-                            "quickSearch":1,
-                                "filterable":0,
-                                    "ext":"{
-                                            \"请求头\":\"手机\",
-                                                \"简介\":\"介绍：&&</span>\",
-                                                    \"副标题\":\"class=\\\"other\\\">&&</p>\",
-                                                        \"线路数组\":\"playerico ico-Azhan&&/li>\",
-                                                            \"线路标题\":\"</i>&&<\",
-                                                               
-                                                                   \"分类\":\"电影$1#电视剧$2#国产剧$12#港剧$21#综艺$31#动漫$26\",
-                                                                       \"分类url\":\"http://www.dudu30.com/?m=vod-type-id-{cateId}-pg-{catePg}.html\"}"},
+
 {
           "key": "央视经典",
                 "name": "📺央视｜经典",
@@ -215,16 +199,7 @@
            "ext": "https://gitee.com/lukei7/lib/raw/Luck/央视大全.json",
           "jar": "https://gitee.com/lukei7/lib/raw/Luck/HeChengChaXiu.jar"
 },
-{
-          "key": "夜猫短剧",
-                "name": "夜猫🌲短剧",
-                      "type": 3,
-                            "api": "csp_YMduanju",
-                                  "jar": "https://gitee.com/lukei7/lib/raw/Luck/ymz_0509.jar",
-                                        "searchable": 1,
-                                              "quickSearch": 1,
-                                                    "filterable": 1
-},	  
+ 
 {
          "key": "csp_Bili短剧",
          "name": "B站短剧",
@@ -242,31 +217,13 @@
 			"searchable": 1,
 			"changeable": 1,
 			"api": "csp_LiteApple",
-            "jar": "http://rihou.cc:555/jar/nzk.jar",
+            "jar": "https://gitee.com/baohe2025/bh/raw/master/spider.jar",
 			"playerType": 1,
 			"filterable": 1,
 			"ext": ""
 		},   
-  {
-            "key": "555影院",
-            "name": "⚡555┃APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://e3wuwu4.com/api.php/app/"
-        },
-  {
-            "key": "河狸影视",
-            "name": "⚡河狸┃APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://www.heli888.cc/api.php/app/"
-        },
+  
+
 	  {
             "key": "千梦影视",
             "name": "⚡千梦┃APP",
@@ -287,26 +244,7 @@
             "filterable": 1,
             "ext": "https://www.nntv.in/api.php/v1.vod"
         },
-        {
-            "key": "北川影视",
-            "name": "⚡北川┃APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://www.bczhuiju.com/api.php/v1.vod"
-        },
-	  {
-            "key": "酷咯影视",
-            "name": "⚡酷咯┃APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://www.kuloo.xyz/ruifenglb_api.php/v1.vod"
-        },
+      
 	  {"key":"XBPQ_文才","name":"文才|秒播","type":3,"api":"csp_XBPQ", 
    "ext":{
     "滤词": "",
@@ -352,44 +290,87 @@
     "筛选": "1",
     "类型": "喜剧$22#动作$23#战争$25#爱情$26#悬疑$27#武侠$28#科幻$30#冒险$31#警匪$32#动画$33#惊悚$34#犯罪$35#恐怖$36#剧情$37#历史$38#纪录$39#传记$40#歌舞$41国产剧$14#欧美剧$15#港台剧$16#日韩剧$62#其他剧$68国产动漫$75#日韩动漫$76#欧美动漫$77#港台动漫$78#其他动漫$80||国产综艺$69#港台综艺$70#日韩综艺$72#欧美综艺$73#其他综艺$74"
     }
-  },{"key":"快看影视","name":"國際┃看看","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
-	  {"key":"SeedHub","name":"SeedHub|磁","type":3,"api":"csp_SeedHub","changeable":1, "timeout":60},
-	{
-            "key": "热播影视",
-            "name": "热播｜影视",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "url": "http://v.rbotv.cn"
-            }
-        },
+  },
+     {
+          "key": "Lib",
+                "name": "🌟立播┃秒播┃纯净",
+                      "type": 3,
+                            "api": "csp_Libvio",
+                            "jar": "https://gitee.com/lukei7/lib/raw/Luck/moyu.jar",
+                                  "searchable": 1,
+                                        "quickSearch": 1,
+                                              "changeable": 1,
+                                                    "ext": {
+                                                                "Cloud-drive": "TVBox/Cloud-drive.txt",
+                                                                        "from": "4k|auto"
+                                                    }
+},
+{
+          "key": "贱贱",
+                "name": "🐭荐片┃速览┃纯净",
+                      "type": 3,
+                            "api": "csp_JPJGuard",
+                                  "jar": "https://gitee.com/lukei7/k18/raw/Luck/moyu.php",
+                                        "playerType": 2,
+                                              "searchable": 1,
+                                                    "quickSearch": 1,
+                                                          "changeable": 0
+},
+    {
+              "key": "alllive",
+                    "name": "📽️星河共影┃2K直播",
+                          "type": 3,
+                                "api": "csp_AllliveGuard",
+                                      "jar": "https://gitee.com/lukei7/k18/raw/Luck/moyu.php",
+                                            "playerType": 2,
+                                                  "searchable": 0,
+                                                        "quickSearch": 0,
+                                                              "changeable": 0
+    },
+    {
+              "key": "原创",
+                    "name": "☀原创┃不卡┃纯净",
+                          "type": 3,
+                                "api": "csp_YCyzGuard",
+                                      "jar": "https://gitee.com/lukei7/k18/raw/Luck/moyu.php",
+                                            "timeout": 15,
+                                                  "playerType": 1,
+                                                        "searchable": 1,
+                                                              "quickSearch": 1,
+                                                                    "changeable": 1
+    },
         {
-            "key": "天天影视",
-            "name": "天天｜影视",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "url": "http://tt.ysdqjs.cn"
-            }
+                  "key": "苹果",
+                        "name": "🍎苹果┃不卡┃纯净",
+                              "type": 3,
+                                    "api": "csp_LiteAppleGuard",
+                                          "jar": "https://gitee.com/lukei7/k18/raw/Luck/moyu.php",
+                                                "searchable": 1,
+                                                      "quickSearch": 1,
+                                                            "changeable": 1
         },
-        {
-            "key": "浪酷影视",
-            "name": "浪酷｜影视",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "url": "http://v.lkuys.cn"
-            }
-        },
+            {
+                      "key": "糯米",
+                            "name": "🍓糯米┃秒播┃纯净",
+                                  "type": 3,
+                                        "api": "csp_NmyswvGuard",
+                                              "jar": "https://gitee.com/lukei7/k18/raw/Luck/moyu.php",
+                                                    "timeout": 15,
+                                                          "searchable": 1,
+                                                                "quickSearch": 1,
+                                                                      "changeable": 1
+            },
+                {
+                          "key": "文采",
+                                "name": "💮文采┃秒播┃纯净",
+                                      "type": 3,
+                                            "api": "csp_JpysGuard",
+                                                  "jar": "https://gitee.com/lukei7/k18/raw/Luck/moyu.php",
+                                                        "playerType": 2,
+                                                              "searchable": 1,
+                                                                    "quickSearch": 1,
+                                                                          "changeable": 1
+                },
 	  {
             "key": "荐片",
             "name": "荐片｜磁力",
@@ -594,8 +575,8 @@
             "changeable": 1,
             "ext":     {
 "站名":"厂长资源",
-"主页url":"https://www.czzy77.com/",
-"分类url":"https://www.czzy77.com/{cateId}/{class}/{area}/page/{catePg};;m0",
+"主页url":"https://www.czzymovie.com/",
+"分类url":"https://www.czzymovie.com/{cateId}/{class}/{area}/page/{catePg};;m0",
 "分类":"全部&豆瓣电影Top250&高分影视&最新电影&电影&国产剧&电视剧&动画&日剧&韩剧&美剧&海外剧&俄罗斯电影&加拿大电影&华语电影&印度电影&日本电影&欧美电影&韩国电影&纪录片",
 "分类值":"movie_bt&dbtop250&gaofenyingshi&zuixindianying&movie_bt_series/dyy&movie_bt_series/guochanju&movie_bt_series/dianshiju&movie_bt_series/dohua&movie_bt_series/rj&movie_bt_series/hj&movie_bt_series/mj&movie_bt_series/hwj&movie_bt_series/eluosidianying&movie_bt_series/jianadadianying&movie_bt_series/huayudianying&movie_bt_series/yindudianying&movie_bt_series/ribendianying&movie_bt_series/meiguodianying&movie_bt_series/hanguodianying&movie_bt/movie_bt_tags/jlpp",
 "简介":"<div class=\"yp_context\">&&</div>",
@@ -720,29 +701,29 @@
               "key": "drpy_js_奇珍异兽",
                     "name": "奇珍异兽[js]",
                           "type": 3,
-                                "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
-                                      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/js/%E5%A5%87%E7%8F%8D%E5%BC%82%E5%85%BD.js"
+                                "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
+                                      "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/js/%E5%A5%87%E7%8F%8D%E5%BC%82%E5%85%BD.js"
     },
         {
                   "key": "drpy_js_优酷",
                         "name": "优酷[js]",
                               "type": 3,
-                                    "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
-                                          "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/js/%E4%BC%98%E9%85%B7.js"
+                                    "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
+                                          "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/js/%E4%BC%98%E9%85%B7.js"
         },
 {
           "key": "drpy_js_腾云驾雾",
                 "name": "腾云驾雾[js]",
                       "type": 3,
-                            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
-                                  "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/js/%E8%85%BE%E4%BA%91%E9%A9%BE%E9%9B%BE.js"
+                            "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
+                                  "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/js/%E8%85%BE%E4%BA%91%E9%A9%BE%E9%9B%BE.js"
 },
 {
           "key": "drpy_js_百忙无果",
                 "name": "百忙无果[js]",
                       "type": 3,
-                            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
-                                  "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/1245410/Luck/js/%E7%99%BE%E5%BF%99%E6%97%A0%E6%9E%9C.js"
+                            "api": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/libs/drpy2.min.js",
+                                  "ext": "https://hub.gitmirror.com/https://raw.githubusercontent.com/1245410/Luck/js/%E7%99%BE%E5%BF%99%E6%97%A0%E6%9E%9C.js"
 },
 {
           "key": "pgys",

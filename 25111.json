@@ -305,17 +305,7 @@
                                                                         "from": "4k|auto"
                                                     }
 },
-{
-          "key": "贱贱",
-                "name": "🐭荐片┃速览┃纯净",
-                      "type": 3,
-                            "api": "csp_JPJGuard",
-                                  "jar": "https://gitee.com/lukei7/k18/raw/Luck/moyu.php",
-                                        "playerType": 2,
-                                              "searchable": 1,
-                                                    "quickSearch": 1,
-                                                          "changeable": 0
-},
+
     {
               "key": "alllive",
                     "name": "📽️星河共影┃2K直播",
@@ -370,26 +360,7 @@
                                                               "searchable": 1,
                                                                     "quickSearch": 1,
                                                                           "changeable": 1
-                },
-	  {
-            "key": "荐片",
-            "name": "荐片｜磁力",
-            "api": "csp_Jianpian",
-            "type": 3,
-            "playerType": 1,
-            "ext": "http://api2.rinhome.com"
-        },
-        {
-            "key": "狐狸君",
-            "name": "狐狸｜4K免扫",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "changeable": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://git.acwing.com/bh666/bhmb/-/raw/main/XBPQ/狐狸君.json"
-        },
+ 
 	  {
             "key": "HG影视",
             "name": "HG影视｜APP",
@@ -400,50 +371,11 @@
             "filterable": 1,
             "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
-	  {
-            "key": "快看",
-            "name": "快看｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "http://kkwk123.top/api.php/app/"
-        },
-     {
-          "key": "热热",
-          "name": "影视热播",
-          "type": 3,
-          "api": "csp_AppRJGuard",
-          "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740714715317/0228JG1.jar;md5;3431e066d826898204cff7bc35683fed",
-          "ext": "sHR2rlsfjI4L3t4RXQMkn9mmg6Ofmy66+wcs9waIyn4hKqT9jG9s4kO6qzcu2OSqWS1/T+wfkqe+UwoipekwvcM11PTDrQqKYI8lmMXUc1vBHxp/2uWIw5HUoscBNWEb"
-        },      
-{        "key":"影视仓",
-         "name":"影视①",  
-      "type": 3,
-      "api": "csp_AppSK",
-      "jar": "https://ztha.top/TVBox/fty.jar",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "FbjPcVZY48PN/RIZ5UWFrphwLIZMAYVUEz5FpK6jnh0fUMKIpzPWz0jI/rymDTutcXiX2Dhu1XsjGntrH8QzPldJXdqa2h7TLjJF3DFX"
-    },
-		{
-			"key": "瓜子",
-			"name": "影视②",
-			"type": 3,
-			"api": "csp_Gz360",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 1,
-			"order_num": 0,
-      "jar": "http://rihou.cc:555/jar/nzk.jar",
-			"changeable": 0
-		},   
+	
+
     {
       "key": "豆豆",
-      "name": "影瓣③",
+      "name": "影瓣①",
       "type": 3,
       "api": "csp_DouDou",
          "jar": "http://rihou.cc:555/nzk/nzkk.jar",
@@ -453,7 +385,7 @@
     },  
 {      
         "key":"MV",
-        "name":"影堂④",
+        "name":"影堂②",
         "type":3,
         "api":"csp_Bili",
         "searchable":1,
@@ -461,28 +393,11 @@
         "filterable":1,
         "ext":"http://rihou.cc:555/nzk/Bili.json",
         "jar":"http://rihou.cc:555/jar/0819.jar;md5;380A08E7735A86D85AAA24E9A1C77AF3"},
-    {
-      "key": "cps_阿里",
-      "name": "影视⑤",
-      "type": 3,
-      "playerType": 2,
-      "changeable": 0,
-      "api": "csp_Wwys",
-      "jar": "http://rihou.cc:555/jar/nzk.jar",
-      "ext": "https://www.wwgz.cn/"
-    },
-    {
-      "key": "csp_SuBaiBai",
-      "name": "影视⑥",
-			"type": 3,
-			"api": "csp_SuBaiBai",
-			"playerType": 2,
-      "jar": "http://rihou.cc:555/jar/nzk.jar",
-			"ext": "https://subaibai.com/"
-		},
+  
+
     {
       "key": "csp_非凡",
-      "name": "影视⑦",
+      "name": "影视③",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -492,7 +407,7 @@
     },
     {
       "key": "csp_xBPQ_奇优",
-      "name": "影视⑧",
+      "name": "影视④",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -512,7 +427,7 @@
     },
     {
       "key": "csp_北川",
-      "name": "影视⑩",
+      "name": "影视⑤",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -520,44 +435,11 @@
       "filterable": 1,
       "ext": "http://rihou.cc:555/nzk/北川影视.json"
     },
-		{
-			"key": "csp_JPYY",
-			"name": "影视⑪",
-			"type": 3,
-			"searchable": 1,
-			"changeable": 1,
-			"api": "csp_Jpyy",
-			"playerType": 2,
-			"filterable": 1,
-      "jar": "http://rihou.cc:555/jar/nzk.jar",
-			"ext": ""
-		},
-        {
-            "key": "csp_Xlys",
-            "name": "影视⑫",
-            "api": "csp_Xlys",
-            "type": 3,
-      "jar": "http://rihou.cc:555/jar/nzk.jar",
-            "playerType": 2
-        },		
-	  
+		
+      
    
       
-        {
-         "key":"影视探",
-         "name":"影视⑯",         
-            "searchable": 1,
-            "quickSearch": 1,
-            "type": 3,
-            "api": "csp_MiTo",
-            "jar": "http://rihou.cc:555/jar/nzk.jar",
-            "ext": {
-                "url": "http://103.88.35.251:8989",
-                "dataKey": "aassddwwxxllsx1x",
-                "playKey": "bbssqdbbssll25sx",
-                "version": "2.1.0"
-            }
-        },	
+
 		{
 			"key": "荐片",
 			"name": "影荐⑰",
@@ -665,18 +547,7 @@
       "filterable": 1,
       "ext": "http://rihou.cc:555/nzk/动漫巴士.json"
     },	
-    	{
-			"key": "csp_LaoBaiBook",
-			"name": "影书②③",
-			"type": 3,
-			"api": "csp_LaoBaiBook",
-			"playerType": 2,
-			"searchable": 0,
-      "jar": "http://rihou.cc:555/jar/nzk.jar",
-			"style": {
-				"type": "rect",
-				"ratio": 1.333}
-			},
+    	
 {
           "key": "新6V",
                 "name": "4K-HDR",
